@@ -1,0 +1,2 @@
+var e=document.querySelector("thead tr"),l=document.querySelectorAll("tbody tr"),t=document.querySelector("tfoot tr"),n=e.cells[1].cloneNode(!0),o=t.cells[1].cloneNode(!0);e.cells[4].insertAdjacentElement("beforebegin",n),t.cells[4].insertAdjacentElement("beforebegin",o);for(var r=0;r<l.length;r++){var c=l[r].cells[1].cloneNode(!0);l[r].cells[4].insertAdjacentElement("beforebegin",c)}
+//# sourceMappingURL=index.482cc55c.js.map
